@@ -5,7 +5,6 @@ import numpy as np
 
 # png 画像データが保存されているディレクトリの指定
 search_path = os.path.sep.join(['png', '*.png'])
-png_dir = 'png\\'  #mac では 'png/'
 # ファイルを検索
 files = glob.glob(search_path)
 # print(files)
