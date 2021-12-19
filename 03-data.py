@@ -5,9 +5,9 @@ import numpy as np
 import random, math
 
 # png 画像データが保存されているディレクトリの指定
-png_dir = "png\\"  #mac では 'png/'
+search_path = os.path.sep.join(['png', '*.png'])
 # ファイルを検索
-files = glob.glob(png_dir + '*.png')
+files = glob.glob(search_path)
 
 # 全画像データを格納するためのリストを準備する
 png_files = []
