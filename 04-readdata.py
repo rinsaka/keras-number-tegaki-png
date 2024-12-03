@@ -1,5 +1,5 @@
 import numpy as np
-from keras.utils.np_utils import to_categorical
+from keras.utils import to_categorical
 
 # ファイルを開いて読み込む
 x_train = np.load('train_X_data.npy')

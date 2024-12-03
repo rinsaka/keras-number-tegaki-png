@@ -1,5 +1,5 @@
 import numpy as np
-from keras.utils.np_utils import to_categorical
+from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense
 import json
@@ -38,5 +38,5 @@ json_string = model.to_json()
 open('tegaki-model.json', 'w').write(json_string)
 
 # 重みの保存
-hdf5_file = "tegaki-predict.hdf5"
+hdf5_file = "tegaki-predict.weights.h5"
 model.save_weights(hdf5_file)

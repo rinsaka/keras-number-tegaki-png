@@ -1,5 +1,6 @@
+.DS_Store
 psd
 tegaki-model.json
-tegaki-predict.hdf5
+tegaki-predict.weights.h5
 png.zip
 *.npy
